@@ -20,7 +20,7 @@ class FilterObject extends Component {
         return (
            
             <div className='puzzleBox filterObjectPB'>
-                <h4 value='Filter Object'></h4>
+                <h4>Filter Object</h4>
                 <span className='puzzleText'>Unfiltered: {JSON.stringify(this.state.unFilteredArray,null,10)}</span>
                 <input 
                         className='inputLine' 
